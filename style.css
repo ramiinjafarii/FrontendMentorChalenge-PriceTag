@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+  background-color: #13678A;
+  font-family: 'karla';
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}
+
+h2, h3, h4 {
+  margin: 0px;
+}
+
+
+#card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 21px 22px 18px -5px rgba(0,0,0,1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#top {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  padding: 25px;
+}
+
+#top h2 {
+  color: #13678A;
+  margin-bottom: 15px;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+#top h4 {
+  color: #9AEBA3;
+}
+
+#top p {
+  color: #4D93C0;
+  font-size: 0.9rem;
+}
+
+#bottom {
+  width: 100%;
+  height:55%;
+}
+
+#right, #left {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  padding: 25px;
+}
+
+#right {
+  background-color: #9AEBA3;
+}
+
+#right ul {
+  font-size: 0.9rem;
+}
+
+#left {
+  background-color: #45C4B0 ;
+}
+
+#left h3 {
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  margin-top: 2px;
+  color: #13678A;
+  background-color: #DAFDBA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 7px 5px 18px -5px rgba(0,0,0,1);
+  padding: 10px;
+  font-family: 'karla';
+  font-size: 1.1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #A8E69E;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.per-month {
+  display: inline;
+  font-size: 0.8rem;
+}
